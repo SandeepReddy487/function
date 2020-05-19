@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <style>
+        h1{
+            color: orangered;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Function Outputs Print Consloe</h1>
+    <img src="image/fb.jpg" alt="" width="100%" height="500px">
+    <a href="youtube.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">YOUTUBE</a>
+    <script>
+    var About_fb = /** @class */ (function () {
+        function About_fb(name,fathername, Family,age,contac,education,Detalis,work,hobbies,dream) {
+            var _this = this;
+            this.name = name;
+            this.fathername;
+            this.Family = Family;
+            this.age = age;
+            this.contac = contac;
+            this.education = education;
+            this.Detalis = Detalis;
+            this.work = work;
+            this.hobbies = hobbies;
+            this.dream = dream;
+           this.Getname = function(){
+            return _this.name;
+           };
+           this.Getfathername = function(){
+               return _this.fathername;
+           }
+           this.GetFamily = function () {
+                return _this.Family;
+            };
+           this.Getage = function(){
+               return _this.age;
+           }
+           this.GetContac = function () {
+                return _this.contac;
+            };
+           this.Geteduction = function (){
+               return _this.education;
+           };
+           this.GetDetalis = function () {
+                return _this.Detalis;
+            };
+            this.GetWoekName = function () {
+                return _this.work;
+            };
+             this.Gethobbies = function () {
+                return _this.hobbies;
+             };
+             this.Getdream = function () {
+                return _this.dream;
+             };
+            this.name = name;
+            this.fathername = fathername;
+            this.Family = Family;
+            this.age = age;
+            this.contac = contac;
+            this.education =education;
+            this.Detalis = Detalis;
+            this.work = work;
+            this.hobbies = hobbies;
+            this.dream =dream;
+        }
+        return About_fb;
+    }());
+    let My_About = new About_fb ([""],"", [""] ,"" ,[""] ,"",[""],"",[""],"")
+    // let My_About = new About_fb ()
+     console.log(My_About.Getname() + "Name:SANDEEP");
+     console.log(My_About.Getfathername() + "FatherName:DAYAKER REDDY");
+     console.log(My_About.GetFamily() + "Family:Dayaker Reddy","RamaDevi","Santhosh","Sandeep");
+     console.log(My_About.Getage() +  "Age:24 Years");
+     console.log(My_About.GetDetalis() + "Detalis:(m):Athumakur(s)","(D):Suryapet","(vill):Kandagatla","H-NO:2/104/A");
+     console.log(My_About.GetContac() + "Mobile Number :+91-9666251994","Email:gaggenapallysandeep487@gmail.com");
+     console.log(My_About.Geteduction() + "Education:MCA[MASTER OF COMPUTER APPLICATION]");
+    console.log(My_About.GetWoekName() + "Wokrplace:Gloury Auto Tech[surat] ");
+    console.log(My_About.Gethobbies()+ "Hobbies:Playing Games");
+    console.log(My_About.Getdream() + "Dream:MeanStack Developer");
+</script>
+</body>
+</html>

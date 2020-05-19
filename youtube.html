@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>youtube</title>
+    <style>
+        h1{
+            color: orangered;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Function Outputs Print Consloe</h1>
+    <img src="image/youtube.jpg" alt="" width="100%" height="500px">
+    <a href="index.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">INDEX</a>
+
+    <script>
+    var About_youtube = /** @class */ (function () {
+        function About_youtube(name,fathername, Family,age,contac,education,Detalis,work,hobbies,dream) {
+            var _this = this;
+            this.name = name;
+            this.fathername;
+            this.Family = Family;
+            this.age = age;
+            this.contac = contac;
+            this.education = education;
+            this.Detalis = Detalis;
+            this.work = work;
+            this.hobbies = hobbies;
+            this.dream = dream;
+           this.Getname = function(){
+            return _this.name;
+           };
+           this.Getfathername = function(){
+               return _this.fathername;
+           }
+           this.GetFamily = function () {
+                return _this.Family;
+            };
+           this.Getage = function(){
+               return _this.age;
+           }
+           this.GetContac = function () {
+                return _this.contac;
+            };
+           this.Geteduction = function (){
+               return _this.education;
+           };
+           this.GetDetalis = function () {
+                return _this.Detalis;
+            };
+            this.GetWoekName = function () {
+                return _this.work;
+            };
+             this.Gethobbies = function () {
+                return _this.hobbies;
+             };
+             this.Getdream = function () {
+                return _this.dream;
+             };
+            this.name = name;
+            this.fathername = fathername;
+            this.Family = Family;
+            this.age = age;
+            this.contac = contac;
+            this.education =education;
+            this.Detalis = Detalis;
+            this.work = work;
+            this.hobbies = hobbies;
+            this.dream =dream;
+        }
+        return About_youtube;
+    }());
+    let My_About = new About_youtube ([""],"", [""] ,"" ,[""] ,"",[""],"",[""],"")
+     console.log(My_About.Getname() + "Name:SHIVA");
+     console.log(My_About.Getfathername() + "FatherName:SATHYAM");
+     console.log(My_About.GetFamily() + "Family:Sathyam","Laxmi","Shiva");
+     console.log(My_About.Getage() +  "Age:25 Years");
+     console.log(My_About.GetDetalis() + "Detalis:(m):Athumakur(s)","(D):Suryapet","(vill):Kandagatla","H-NO:2/10/c");
+     console.log(My_About.GetContac() + "Mobile Number :+91-9160904727","Email:gaggenapallyshiva@gmail.com");
+     console.log(My_About.Geteduction() + "Education:MCA[MASTER OF COMPUTER APPLICATION]");
+    console.log(My_About.GetWoekName() + "Wokrplace:suryapet");
+    console.log(My_About.Gethobbies()+ "Hobbies:Playing Games");
+</script>
+</body>
+</html>
