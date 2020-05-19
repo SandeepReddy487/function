@@ -18,71 +18,67 @@
 
     <script>
     var About_youtube = /** @class */ (function () {
-        function About_youtube(name,fathername, Family,age,contac,education,Detalis,work,hobbies,dream) {
+        function About_youtube(name,Director, hero,heroine,rating,Detalis,Release,Box,Music) {
             var _this = this;
             this.name = name;
-            this.fathername;
-            this.Family = Family;
-            this.age = age;
-            this.contac = contac;
-            this.education = education;
+            this.Director=Director;
+            this.hero = hero;
+            this.heroine = heroine;
+            this.rating = rating;
             this.Detalis = Detalis;
-            this.work = work;
-            this.hobbies = hobbies;
-            this.dream = dream;
+            this.Release = Release;
+            this.Box = Box;
+            this.dream = Music;
            this.Getname = function(){
             return _this.name;
            };
-           this.Getfathername = function(){
-               return _this.fathername;
+           this.GetDirector = function(){
+               return _this.Director;
            }
-           this.GetFamily = function () {
-                return _this.Family;
+           this.Gethero = function () {
+                return _this.hero;
             };
-           this.Getage = function(){
-               return _this.age;
+           this.Getheroine = function(){
+               return _this.heroine;
            }
-           this.GetContac = function () {
-                return _this.contac;
+           this.Getrating = function () {
+                return _this.rating;
             };
-           this.Geteduction = function (){
-               return _this.education;
-           };
            this.GetDetalis = function () {
                 return _this.Detalis;
             };
-            this.GetWoekName = function () {
-                return _this.work;
+            this.GetRelease = function () {
+                return _this.Release;
             };
-             this.Gethobbies = function () {
-                return _this.hobbies;
+             this.GetBox = function () {
+                return _this.Box;
              };
-             this.Getdream = function () {
-                return _this.dream;
+             this.GetMusic = function () {
+                return _this.Music;
              };
             this.name = name;
-            this.fathername = fathername;
-            this.Family = Family;
-            this.age = age;
-            this.contac = contac;
-            this.education =education;
+            this.Director = Director;
+            this.hero = hero;
+            this.heroine = heroine;
+            this.contac = rating;
             this.Detalis = Detalis;
-            this.work = work;
-            this.hobbies = hobbies;
-            this.dream =dream;
+            this.Release = Release;
+            this.Box = Box;
+            this.Music =Music;
         }
         return About_youtube;
     }());
-    let My_About = new About_youtube ([""],"", [""] ,"" ,[""] ,"",[""],"",[""],"")
-     console.log(My_About.Getname() + "Name:SHIVA");
-     console.log(My_About.Getfathername() + "FatherName:SATHYAM");
-     console.log(My_About.GetFamily() + "Family:Sathyam","Laxmi","Shiva");
-     console.log(My_About.Getage() +  "Age:25 Years");
-     console.log(My_About.GetDetalis() + "Detalis:(m):Athumakur(s)","(D):Suryapet","(vill):Kandagatla","H-NO:2/10/c");
-     console.log(My_About.GetContac() + "Mobile Number :+91-9160904727","Email:gaggenapallyshiva@gmail.com");
-     console.log(My_About.Geteduction() + "Education:MCA[MASTER OF COMPUTER APPLICATION]");
-    console.log(My_About.GetWoekName() + "Wokrplace:suryapet");
-    console.log(My_About.Gethobbies()+ "Hobbies:Playing Games");
+    let My_About = new About_youtube (["Arjun Reddy","Sandeep Reddy Vanga","Vijay Deverakonda[Arjun]","Shalini Pandey[Preeti]"," 25 August 2017 (India)","51 crores INR"," Harshavardhan Rameshwar, Radhan"]," ", [" "] ," ",[" "] ," ",[" "]," ",[" "]," ")
+     console.log(My_About.Getname() +"MOVIEName:Arjun Reddy ");
+     console.log(My_About.GetDirector() +"Director: Sandeep Reddy Vanga");
+     console.log(My_About.Gethero() +"Hero:Vijay Deverakonda[Arjun]");
+     console.log(My_About.Getheroine() +"heroine:Shalini Pandey[Preeti]");
+     console.log(My_About.Getrating() +"MOVIE RATING :[8.2]");
+     console.log(My_About.Getrating() +"Detalis:Arjun Reddy Deshmukh is a young surgeon with functioning alcoholism and a furious temper. He spirals into self-destruction ");
+    console.log(My_About.GetRelease() +"Release date: 25 August 2017 (India)");
+    console.log(My_About.GetBox() +"Box office: 51 crores INR");
+    console.log(My_About.GetMusic() +"Music director: Harshavardhan Rameshwar, Radhan");
+
 </script>
 </body>
 </html>
